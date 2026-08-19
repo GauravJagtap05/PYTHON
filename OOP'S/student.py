@@ -17,3 +17,8 @@ class student(teacher):
     def getGF(self):
         return self.GF
 
+    def setBF(self,BF):
+        self.BF = BF
+    def getBF(self):
+        return self.BF
+
