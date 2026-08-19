@@ -12,3 +12,13 @@ class student(teacher):
     def getmarks(self):
         return self.marks
 
+    def setGF(self,GF):
+        self.GF = GF
+    def getGF(self):
+        return self.GF
+
+    def setBF(self,BF):
+        self.BF = BF
+    def getBF(self):
+        return self.BF
+
