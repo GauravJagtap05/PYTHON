@@ -31,3 +31,26 @@ except Exception as e:
 finally:
     print("close the file")
 
+
+# else
+
+try:
+    print("Open the file")
+
+    a = int(input("enter a number: "))
+    b = int(input("enter another number: "))
+
+    c = a / b
+
+except ZeroDivisionError as e:
+    print("Error:", e)
+
+except ValueError:
+    print("Please enter integers only")
+
+else:
+    print("result =", c)
+
+finally:
+    print("close the file")
+
