@@ -21,4 +21,3 @@ class student(teacher):
         self.BF = BF
     def getBF(self):
         return self.BF
-
