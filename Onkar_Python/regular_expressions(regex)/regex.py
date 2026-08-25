@@ -59,5 +59,16 @@ if obj:
 else:
     print('no match')
 
+# =================
+# to find all words starting with 'an' or 'ak'
 
+import re
 
+str = 'anil akhill anant arun arati arundhati abhijit ankur amar'
+
+lst = re.findall(r'a[nk]\w*', str)
+if lst:
+    for i in lst:
+        print(i)
+else:
+    print('no match')
