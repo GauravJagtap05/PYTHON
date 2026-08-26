@@ -72,3 +72,27 @@ if lst:
         print(i)
 else:
     print('no match')
+
+# ==========================
+# retrive bith dates
+
+import re
+
+str = 'vijay 20 1-5-2001, rohit 21 22-10-1990'
+lst = re.findall(r'\d*-\d*-\d\d\d\d', str)
+if lst:
+    print(lst)
+else:
+    print('no match')
+
+# OR
+
+import re
+
+str = 'vijay 20 1-5-2001, rohit 21 22-10-1990'
+lst = re.findall(r'\d{1,2}-\d{1,2}-\d\d\d\d', str)
+if lst:
+    print(lst)
+else:
+    print('no match')
+
