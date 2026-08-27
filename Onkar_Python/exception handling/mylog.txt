@@ -1,1 +1,7 @@
 ERROR:root:invalid literal for int() with base 10: '10,0'
+Traceback (most recent call last):
+  File "/Users/onkar/PycharmProjects/Python_gaurav/Onkar_Python/exception handling/Logging.py", line 9, in <module>
+    a, b = [int(i) for i in input("Enter two nos: ").split()]
+  File "/Users/onkar/PycharmProjects/Python_gaurav/Onkar_Python/exception handling/Logging.py", line 9, in <listcomp>
+    a, b = [int(i) for i in input("Enter two nos: ").split()]
+ValueError: invalid literal for int() with base 10: '10,0'

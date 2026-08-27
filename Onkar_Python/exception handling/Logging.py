@@ -1,5 +1,3 @@
-# logging
-
 import logging
 
 logging.basicConfig(
@@ -13,4 +11,4 @@ try:
     print("Result of div =", c)
 
 except Exception as e:
-    logging.error(e)
+    logging.exception(e)
