@@ -124,8 +124,32 @@
 # print(total_amount)
 
 
+# n = int(input('Enter a number: '))
+# count = 0
+# for i in range(2, n):
+#     if n % i == 0:
+#         count += 1
+#         break
 
 
+# x = int(input("enter the first number "))
+# y = int(input("enter the Second number "))
+#
+# print('x = ',x)
+# print('y = ',y)
+# print('----------------------')
+#
+# x,y = y,x
+#
+# print('x = ',x)
+# print('y = ',y)
+# --------------------------------------------
 
-
+a = 123
+reverse = 0
+while  a > 0:
+    a = a % 10
+    reverse = reverse * 10 + a
+    a = a // 10
+print(a)
 
